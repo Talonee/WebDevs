@@ -17,9 +17,9 @@ body {
 .container {
 	position: relative;
 	width: 400px;
-	height: 605px;
+	height: 105px;
 	background-color: #fff;
-	padding: 28px 32px;
+	padding: 26px 32px;
 	overflow: hidden;
 	border-radius: 18px;
 	font-family: 'Roboto', sans-serif;
@@ -39,10 +39,10 @@ body {
 	font-size: 24px;
 	font-weight: 500;
 	text-transform: capitalize;
-	padding-left: 32px;
+	padding-left: 34px;
 }
 .search-box input::placeholder {
-	font-size: 20px;
+	font-size: 22px;
 	text-transform: lowercase;
 }
 .search-box button {
@@ -68,7 +68,7 @@ body {
 .weather-box, .not-found {
 	text-align: center;
 }
-.weather-box, .not-found img {
+.weather-box img, .not-found img {
 	width: 70%;
 	margin-top: 30px;
 }
@@ -148,7 +148,17 @@ body {
 	opacity: 0;
 }
 
+.fadeIn {
+	animation: 0.5s fadeIn forwards;
+	animation-delay: 0.5s;
+}
 
+@keyframes fadeIn {
+	to {
+		scale: 1;
+		opacity: 1;
+	}
+}
 
 
 
