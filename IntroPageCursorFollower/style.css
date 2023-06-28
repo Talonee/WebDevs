@@ -1,0 +1,80 @@
+        @import url("https://fonts.googleapis.com/css?family=Anton");
+
+        .cursor {
+            left: 0;
+            top: 0;
+            width: 21px;
+            height: 21px;
+            background-color: #B2A4FF;
+            position: absolute;
+            border-radius: 10px;
+        }
+
+        .cursor__follower0 {
+            transition: transform 0.15s;
+            width: 15px;
+            height: 15px;
+            background-color: #FFB4B4;
+        }	
+
+	.cursor__follower1 {
+            transition: transform 0.20s;
+            width: 10px;
+            height: 10px;
+            background-color: #FFDEB4;
+        }
+
+	.cursor__follower2 {
+            transition: transform 0.25s;
+            width: 5px;
+            height: 5px;
+            background-color: #FDF7C3
+        }
+
+        /* Unrelated styles */
+        html {
+            font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
+            cursor: none;
+            background-color: #000;
+	    color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+	    text-align: center;
+        }
+
+        h1 {
+  	    font-family: 'Bungee Shade', cursive;
+            font-size: 100px;
+            letter-spacing: 10px;
+            line-height: 0;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+
+        h1, h2 span {
+            letter-spacing: 15px;
+        }
+
+h4 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+}
+
+div {
+	display: block;
+}
+
+.h-screen {
+ padding-bottom: 10rem;
+            height: 100vh;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%    
+}
