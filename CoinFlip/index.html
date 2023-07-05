@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Coin Flip</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?
+		family=Poppins:wght@300;400;500;600;700;800;900&
+		family=Robot:wght@300;400;500;700;900&
+		family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="stats">
+			<p id="heads-count">Heads: 0</p>
+			<p id="tails-count">Tails: 0</p>
+		</div>
+		<div class="coin" id="coin">
+			<div class="heads">
+				<img src="heads.svg">
+			</div>
+			<div class="tails">
+				<img src="tails.svg">
+			</div>
+		</div>
+		<div class="buttons">
+			<button id="flip-button">
+				Flip coin
+			</button>
+			<button id="reset-button">
+				Reset
+			</button>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
