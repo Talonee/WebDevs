@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	align-items: cente;
+	justify-content: center;
+	background: #efefef;
+}
+
+#game {
+	background: #ccc;
+	margin-top: 10rem;
+	border: 2px solid #333;
+}
+
+	
